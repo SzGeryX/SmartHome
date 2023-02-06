@@ -26,4 +26,11 @@ body{
 .content {
     min-height: 100vh;
     margin: 30px 10px;
+    font-size: 18px;
+}
+footer{
+    opacity: 0.3;
+    float: right;
+    margin: 5px 5px;
+    font-size: small;
 }
