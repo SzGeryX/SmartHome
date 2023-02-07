@@ -5,7 +5,7 @@
 }
 body{
     background-repeat: no-repeat;
-    background-color: #88898f;
+    background-color: #ffffff;
 }
 #heading {
     min-height: 100vh;
@@ -71,10 +71,23 @@ a {
         font-size: 16px;
 }
 #page1 {
-    min-height: 100vh;
+    min-height: 99vh;
 
     background-image: url(page1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+#page2 {
+    min-height: 99vh;
+
+    background-image: url(page1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.blend {
+    height: 1vh;
+    background-color: rgba(112, 139, 139, 0.8);
 }
