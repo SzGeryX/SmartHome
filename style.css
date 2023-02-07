@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-color: #88898f;
 }
-#title {
+#heading {
     min-height: 100vh;
 
     background-image: url(background.jpg);
@@ -15,22 +15,48 @@ body{
     background-position: center;
     background-size: cover;
 }
-#title h1 {
-    position: absolute;
+#heading h1 {
     font-size: 5em;
     color: #08e5fa;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
 }
 .content {
     min-height: 100vh;
     margin: 30px 10px;
     font-size: 18px;
 }
-footer{
+#back {
+    position: fixed;
+    
+    top: 92%;
+    left: 95%;
+
+    border: 3px solid #08e5fa;
+    border-radius: 10%;
+
+    font-size: x-large;
+    color: black;
+
+    min-width: 50px;
+    min-height: 50px;
+    display: flex; 
+    align-items: center;
+    justify-content : center;
+    
+    background-color: slategray;
+}
+footer {
     opacity: 0.3;
     float: right;
     margin: 5px 5px;
     font-size: small;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.center {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
