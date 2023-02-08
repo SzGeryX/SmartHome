@@ -5,89 +5,63 @@
 }
 body{
     background-repeat: no-repeat;
-    background-color: #ffffff;
-}
-#heading {
-    min-height: 100vh;
-
-    background-image: url(background.jpg);
+    background-image: url(background.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
+/* 1 Page */
+#heading {
+    min-height: 100vh;
+
+}
 #heading h1 {
     font-size: 5em;
-    color: #08e5fa;
+    color: #00ffa6;
 }
-#back {
-    position: fixed;
-    
-    top: 92%;
-    left: 95%;
+/*-----------------------------------------*/
 
-    border: 3px solid #08e5fa;
-    border-radius: 10%;
-
-    font-size: x-large;
-    color: black;
-    
-    min-width: 50px;
-    min-height: 50px;
-    display: flex; 
-    align-items: center;
-    justify-content : center;
-    
-    background-color: slategray;
-}
+/*footer*/
 footer {
-    opacity: 0.3;
+    opacity: 1;
     float: right;
     margin: 5px 5px;
     font-size: small;
 }
-a {
-    text-decoration: none;
-    color: black;
-}
+/*-----------------------------------------*/
+
+
 .center {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
 }
+
+
+
 .item{
-    width: 85vh;
-    height: 90vh;
-    background: rgba(114, 158, 158, 0.7);
+    width: 90vh;
+    height: 95vh;
     border-radius: 5%;
-    margin: auto;
+    background-color: #333f51aa !important;
+    padding: 0.5%;
+    margin: 1%;
 }
 .container {
     display: flex;
     justify-content: space-around;
+    margin: 0; 
+    padding: auto 1%;
 }
+
 .content {
         margin: 15px 15px;
-        font-size: 16px;
-}
-#page1 {
-    min-height: 99vh;
-
-    background-image: url(page1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-#page2 {
-    min-height: 99vh;
-
-    background-image: url(page1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+        font-size: 2.04vh;
+        color: #c4c6ca;
 }
 
-.blend {
-    height: 1vh;
-    background-color: rgba(112, 139, 139, 0.8);
+a {
+    text-decoration: none;
+    color: #69768a;
 }

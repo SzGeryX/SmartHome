@@ -1,0 +1,27 @@
+#back {
+    position: fixed;
+    
+    top: 91%;
+    left: 94%;
+
+    border: 2px solid #00cc83;
+    border-radius: 9%;
+
+    font-size: x-large;
+    color: black;
+    
+    min-width: 49px;
+    min-height: 49px;
+    display: flex; 
+    align-items: center;
+    justify-content : center;
+    
+    background-color: #262d3d;
+}
+* {
+    color: #00ffa6;
+    font-size: xx-large;
+}
+a {
+    color: #5bfcc3;
+}
