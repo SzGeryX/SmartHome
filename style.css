@@ -65,3 +65,22 @@ a {
     text-decoration: none;
     color: #69768a;
 }
+h2 {
+    text-align: center;
+}
+p, ul {
+    margin-bottom: 10px;
+}
+h3 {
+    margin-bottom: 5px;
+}
+#hidden1, #hidden2 {
+    visibility: hidden;
+    position: absolute;
+}
+#hidden2 {
+    width: 32%;
+}
+#hidden1 {
+    width: 25%;
+}
